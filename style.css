@@ -4,6 +4,7 @@ h5,
 h6,
 h7 {
   font-family: "Gloria Hallelujah", cursive;
+  color: #364170;
 }
 
 h1 {
@@ -41,12 +42,12 @@ ul {
 
 .form {
   display: flex;
-  margin-top: 30px;
+  margin-top: 25px;
 }
 
 .form-control {
   height: 36px;
-  width: 260px;
+  width: 240px;
   color: #949bbb;
   border-radius: 0.6em;
 }
@@ -62,7 +63,7 @@ ul {
 }
 
 .body2 {
-  margin-top: 30px;
+  margin-top: 40px;
   max-width: 530px;
   border-radius: 15px;
   box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.1);
@@ -70,6 +71,13 @@ ul {
 
 .body2 .row {
   padding: 20px;
+}
+
+.body2 .units {
+  position: relative;
+  font-size: 16px;
+  top: -12px;
+  margin-left: -5px;
 }
 
 .col {
@@ -91,7 +99,7 @@ ul {
 }
 
 .weather {
-  margin: 0px;
+  margin-top: -60px;
   padding-top: 0px;
 }
 
