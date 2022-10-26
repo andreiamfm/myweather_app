@@ -75,13 +75,16 @@ ul {
 
 .units {
   position: relative;
-  color: #364170;
   font-size: 16px;
   top: -12px;
   margin-left: -5px;
 }
 
-.units:hover {
+.units .active {
+  color: #364170;
+}
+
+a:link {
   text-decoration: none;
 }
 
