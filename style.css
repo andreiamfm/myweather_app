@@ -12,6 +12,18 @@ h1 {
   margin-left: 30px;
 }
 
+h2 {
+  margin-left: 35px;
+  margin-top: 40px;
+  font-size: 80px;
+}
+
+h5 {
+  font-size: 18px;
+  margin-top: -51px;
+  margin-left: 155px;
+}
+
 h7 {
   font-size: 14px;
 }
@@ -22,9 +34,12 @@ p {
 }
 
 img {
-  width: 300px;
-  margin: 20px auto;
+  position: relative;
+  width: 40px;
+  top: 35px;
+  margin-left: -70px;
 }
+
 svg {
   width: 20px;
 }
@@ -37,6 +52,8 @@ li {
 }
 
 ul {
+  margin-top: 130px;
+  margin-left: 10px;
   padding-inline-start: 10px;
 }
 
@@ -47,7 +64,7 @@ ul {
 
 .form-control {
   height: 36px;
-  width: 240px;
+  width: 260px;
   color: #949bbb;
   border-radius: 0.6em;
 }
@@ -75,9 +92,9 @@ ul {
 
 .units {
   position: relative;
-  font-size: 16px;
-  top: -12px;
-  margin-left: -5px;
+  font-size: 18px;
+  top: -45px;
+  margin-left: -18px;
 }
 
 .units .active {
@@ -111,6 +128,14 @@ a:link {
   padding-top: 0px;
 }
 
+.descriptionw {
+  position: relative;
+}
+
+.temp {
+  margin-left: 0px;
+}
+
 .card {
   display: block;
   margin-top: 0px;
@@ -119,15 +144,14 @@ a:link {
 }
 
 .btn-primary {
-  height: 38px;
+  height: 36px;
   border-radius: 10px;
-  margin-top: 8px;
   background-color: #8791be;
   border-color: white;
   color: white;
   font-size: 16px;
   line-height: 22px;
-  padding: 8px 15px;
+  padding: 6px 15px;
   text-align: center;
   text-decoration: none;
   transition: all 200ms ease;

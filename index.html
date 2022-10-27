@@ -32,7 +32,7 @@
   <body>
     <div class="container">
       <form id="search-form" class="form">
-        <div class="d-flex align-items-start">
+        <div class="d-flex gap-1">
           <input
             type="text"
             class="form-control"
@@ -56,22 +56,18 @@
         <div class="row">
           <div class="col">
             <h1 id="city">Harleem</h1>
-            <img
-              src="img/undraw_Before_dawn_re_hp4m (2).png"
-              alt="ilustração"
-            />
-          </div>
-          <div class="col-sm">
-            <ul>
-              <h2>
-                <span id="temperature"> 19 </span>
-                <span class="units">
-                  <a href="#" id="celsius-link" class="active"> ºC </a> |
-                  <a href="#" id="fahrenheit-link"> Fº</a>
-                </span>
-              </h2>
+            <h2>
+              <span id="temperature" class="temp"> 19 </span>
+              <span class="units">
+                <a href="#" id="celsius-link" class="active"> ºC </a> |
+                <a href="#" id="fahrenheit-link"> Fº</a>
+                <img src="" alt="Clear" id="icon" />
+              </span>
               <h5 id="description">Partly cloudy</h5>
-              <br />
+            </h2>
+          </div>
+          <div class="col-sm-5">
+            <ul>
               <li>Humidity: <span id="humidity"></span>%</li>
               <li>Wind: <span id="wind"></span> km/h</li>
               <li id="date">Tuesday, 7:45pm</li>

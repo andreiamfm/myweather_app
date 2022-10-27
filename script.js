@@ -26,10 +26,16 @@ function formatDate(date) {
 function displayWeatherCondition(response) {
   let temperatureElement = document.querySelector("#temperature");
   document.querySelector("#city").innerHTML = response.data.name;
+  let iconElement = document.querySelector("#icon");
 
   celsiusTemperature = response.data.main.temp;
 
   temperatureElement.innerHTML = Math.round(celsiusTemperature);
+  iconElement.setAttribute(
+    "src",
+    `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+  );
+  iconElement.setAttribute("alt", response.data.weather[0].description);
 
   document.querySelector("#humidity").innerHTML = response.data.main.humidity;
   document.querySelector("#wind").innerHTML = Math.round(
