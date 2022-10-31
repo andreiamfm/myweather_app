@@ -73,7 +73,6 @@ function displayForecast(response) {
                       alt=""
                       width="35px"
                     />
-                    Clouds
                   </span></h7
                 >
               </div>
